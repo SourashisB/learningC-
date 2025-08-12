@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\WORK STUFF\KATAS\LEARNINGC-\MOCK_STOCK\BUILD\CMAKEFILES\3D8CE776EB1FF13231F2BEFDEF788E08\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock" "-BC:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock/build/MockStockMarket.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

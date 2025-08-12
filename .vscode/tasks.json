@@ -2,17 +2,18 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:\\MinGW\\bin\\g++.exe",
+            "label": "C/C++: clang.exe build active file",
+            "command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe",
             "args": [
-                "-fdiagnostics-color=always",
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:\\MinGW\\bin"
+                "cwd": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\Llvm\\x64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
