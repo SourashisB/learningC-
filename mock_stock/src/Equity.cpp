@@ -14,6 +14,14 @@ void Equity::updatePrice() {
     if (volume < 0) volume = 0;
 }
 
+void Equity::setPrice(double newPrice) {
+    price = newPrice;
+}
+
+void Equity::setVolume(int newVolume) {
+    volume = newVolume;
+}
+
 std::string Equity::getSymbol() const { return symbol; }
 double Equity::getPrice() const { return price; }
 double Equity::getVolatility() const { return volatility; }

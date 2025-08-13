@@ -1,3 +1,0 @@
-C:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock/build/CMakeFiles/MockStockMarket.dir
-C:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/user/Downloads/work stuff/katas/learningC-/mock_stock/build/CMakeFiles/ZERO_CHECK.dir

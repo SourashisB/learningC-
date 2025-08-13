@@ -21,6 +21,8 @@ public:
     double getPrice() const;
     double getVolatility() const;
     int getVolume() const;
+    void setPrice(double newPrice);
+    void setVolume(int newVolume);
 };
 
 #endif
