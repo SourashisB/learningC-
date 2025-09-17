@@ -1,0 +1,3 @@
+C:/Users/user/Downloads/work stuff/katas/learningC-/risk_engine/build/CMakeFiles/risk_engine.dir
+C:/Users/user/Downloads/work stuff/katas/learningC-/risk_engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Downloads/work stuff/katas/learningC-/risk_engine/build/CMakeFiles/ZERO_CHECK.dir
